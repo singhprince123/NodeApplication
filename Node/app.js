@@ -57,7 +57,7 @@ app.use((error, req, res, next) => {
 });
 
 // port number
-const port = 4000;
+const port = process.env.PORT || 80;
  
 
 //starting Server to listen on port
